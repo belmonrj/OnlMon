@@ -23,6 +23,7 @@ hcaldata_DATA = \
   OHCALMON_82451.root \
   OHCALMON_cosmic_45022_1000ADC.root \
   OHCALMON_cosmic_63461_1000ADC.root \
+  OHCALMON_cosmic_82893_1000ADC.root \
   IHCALMON_40747.root \
   IHCALMON_54117.root \
   IHCALMON_54145.root \
@@ -39,4 +40,5 @@ hcaldata_DATA = \
   IHCALMON_82400.root \
   IHCALMON_82451.root \
   IHCALMON_cosmic_45022_1000ADC.root \
-  IHCALMON_cosmic_63461_1000ADC.root
+  IHCALMON_cosmic_63461_1000ADC.root \
+  IHCALMON_cosmic_82893_1000ADC.root
