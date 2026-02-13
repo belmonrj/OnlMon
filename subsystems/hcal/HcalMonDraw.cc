@@ -91,7 +91,8 @@ int HcalMonDraw::Init()
     std::cout << "HcalMonDraw::Init() ERROR: Could not find histogram h2_hcal_hits in file " << TEMPFILENAME << std::endl;
     exit(1);
   }
-  sprintf(TEMPFILENAME, "%s/%s_cosmic_63461_1000ADC.root", hcalcalib, prefix.c_str());
+  //sprintf(TEMPFILENAME, "%s/%s_cosmic_63461_1000ADC.root", hcalcalib, prefix.c_str()); high gain cosmic run
+  sprintf(TEMPFILENAME, "%s/%s_cosmic_82893_1000ADC.root", hcalcalib, prefix.c_str()); // low gain cosmic run
   TFile* tempfile2 = new TFile(TEMPFILENAME, "READ");
   if (!tempfile2->IsOpen())
   {
